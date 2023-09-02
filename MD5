@@ -1,4 +1,4 @@
-1022cc6de44696ed4454472d6f0e25e4 *DESCRIPTION
+1ecc17d087b34629b123cb14e0f80208 *DESCRIPTION
 2676ffee5e20722c08976d28829052b9 *NAMESPACE
 7e5abaef12aebbe03ee06d72e02c92b4 *R/BinarySearch.R
 7df64eaa697ec8a9976ea3ad1ab4236c *R/InsertionSearch.R
@@ -8,7 +8,7 @@ d4b4faf7d83244e07db542ab770985c6 *R/critconst_quick.R
 6faa07b5b5178de82f60232a93164915 *R/lowerConvexHull.R
 80a69ac393671b955f4fa6f8707f1c6d *R/lowestAlphaLevelsA.R
 1833ab1911bf41c9ba302643abc568db *R/lowestAlphaLevelsB.R
-75a77de8b52ba11d9f164fdc48660061 *R/mtp.R
+2258a0177daa30ffed3aca6d9e4778cf *R/mtp.R
 a914bb280d6a196ec7a644fb2b1c1fe2 *R/mtp_chochberg.R
 1f8c1394938b35af258d3e65ebe28370 *R/mtp_gtxr0.R
 3e18379aa9b780bc31e6a4864718b4a7 *R/mtp_gtxr0b.R
@@ -37,8 +37,8 @@ db079fef9906b9e4d87f10ed4a68559c *R/mtp_rom1.R
 ff3c82ae4f46c1ca779b1c9fadbe2b0a *R/mtp_roma.R
 8db87e61ed32dd74b0d161ca150cd7bc *R/mtp_romx.R
 e22efd9133eb3ffb8834b953f7fbb947 *R/mtp_romxg.R
-8bbcd85819f489bc7cbc4bf599a5849a *R/mtp_wt.R
-c88ae1f519acfdefd263b62523d41704 *R/p_adjust.R
-53b7e1de02756b3f13c98f23b19ea2a8 *man/mtp.Rd
-ac10ee7fb0a872bbde14af7de61dc072 *man/mtp.wt.Rd
-68faa9fd85542efb733da622b3c538c9 *man/p.adjust.Rd
+ea39b55e441048dc9f1fb640ff044296 *R/mtp_wt.R
+8cbba24b9de972b3fcd11c42f0f41a72 *R/p_adjust.R
+df5082b83f8c05a7488eab4d0ead6e12 *man/mtp.Rd
+f7c1999e42ef585d64cc1954b114bcab *man/mtp.wt.Rd
+5ab1873c22264d80880b6a3baf6428d7 *man/p.adjust.Rd

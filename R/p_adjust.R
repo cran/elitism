@@ -1,9 +1,7 @@
 #' @name p.adjust
 #' @title Adjust P-values for Multiple Test Procedures
 #'
-#' @description Given a set of p-values, returns adjusted p-values, including the hybrid Hochberg-Hommel procedure (Gou et al., 2014) and Quick procedure (Gou and Zhang, 2020).
-#'
-#'
+#' @description Given a set of p-values, returns adjusted p-values, including the hybrid Hochberg-Hommel procedure (Gou et al., 2014) and Quick procedure (Gou and Zhang, 2022).
 #'
 #' @param p vector of p-values.
 #' @param method multiplicity correction method, "gtxr" is the hybrid Hochberg-Hommel method, "quick" is the Quick method. Other methods include:"holm", "hochberg", "hommel", "bonferroni", "BH", "BY","fdr", "none" from the standard R function p.adjust.
@@ -11,10 +9,14 @@
 #' @return a vector of corrected p-values.
 #' @author Jiangtao Gou
 #' @references
-#' Gou, J., Tamhane, A. C., Xi, D., and Rom, D. (2014). A class of improved hybrid Hochberg-Hommel type step-up multiple test procedures. \emph{Biometrika} \bold{101}, 899-911. <https://dx.doi.org/10.1093/biomet/asu032>
-#' 
-#' Gou, J., and Zhang, F. (2020). Quick multiple test procedures and p-value adjustments. Technical report.
-#' 
+#' Gou, J., Tamhane, A. C., Xi, D., and Rom, D. (2014). A class of improved hybrid Hochberg-Hommel type step-up multiple test procedures. \emph{Biometrika} \bold{101}, 899-911.
+#'
+#' Tamhane, A. C., and Gou, J. (2018). Advances in p-value based multiple test procedures. \emph{Journal of Biopharmaceutical Statistics} \bold{28}, 10-27.
+#'
+#' Tamhane, A. C., and Gou, J. (2022). Chapter 2 Multiple test procedures based on p-values. In X. Cui, T. Dickhaus, Y. Ding, and J. C. Hsu (Eds.), \emph{Handbook of multiple comparisons} (Vol. 45, pp. 11-34).
+#'
+#' Gou, J.(2022). Quick multiple test procedures and p-value adjustments, \emph{Statistics in Biopharmaceutical Research} \bold{14}, 636-650.
+#'
 #' @details
 #' Given a set of p-values, returns p-values adjusted using one of several methods. The default method is "gtxr". Another option is "quick". Other adjustment methods have been included in function p.adjust in R package stats.
 #' @examples
